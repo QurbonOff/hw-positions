@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 200vh;
+}
+
+.block{
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 50px auto;
+    position: relative;
+    
+}
+
+.box{
+    width: 75px;
+    height: 75px;
+    border: solid 1px black;
+    color: white;
+    font-size: 25px;
+}
+
+.box:first-child{
+   background-color: red;
+   position: relative;
+   left: 300px;
+   top: 100px;
+   
+}
+
+.box:nth-child(2){
+    background-color: green;
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    
+
+}
+
+.box:nth-child(3){
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+
+
+.box:last-child{
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+
+
